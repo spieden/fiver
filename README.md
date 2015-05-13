@@ -1,6 +1,6 @@
 # watership
 
-Consume RabbitMQ/AMQP queues using core.async channels. Augments lohr to do this one job.
+Consume RabbitMQ/AMQP queues using core.async channels. Augments [langohr](http://clojurerabbitmq.info/) to do this one job.
 
 ## Usage
 
