@@ -5,7 +5,7 @@
             [clojure.core.async :as async]))
 
 (def rabbitmq-deliver-timeout-millis 300)
-(def rabbitmq-ack-timeout-millis 100)
+(def rabbitmq-ack-timeout-millis 200)
 
 (deftest chan-for-queue
   (tqs/with-queue {:keys [publish chans]}
