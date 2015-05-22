@@ -1,6 +1,6 @@
-(defproject watership "0.1.0-SNAPSHOT"
-  :description "Consume RabbitMQ queues with core.async channels"
-  :url "https://github.com/spieden/watership"
+(defproject exaptic/fiver "0.1.0-SNAPSHOT"
+  :description "Consume RabbitMQ queues using core.async channels"
+  :url "https://github.com/spieden/fiver"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
