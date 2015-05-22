@@ -3,6 +3,8 @@
 > "I think we ought to do all we can to make these creatures friendly. It might turn out to be well
 > worth the trouble." - Hazel, "Watership Down"
 
+[![Build Status](https://travis-ci.org/spieden/fiver.svg?branch=master)](https://travis-ci.org/spieden/fiver)
+
 Fiver makes core.async channels for consuming RabbitMQ queues via
 [langohr](http://clojurerabbitmq.info/). Test coverage is thorough but production use is currently
 limited (let me know your experience).
