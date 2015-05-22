@@ -1,4 +1,4 @@
-(ns watership.core
+(ns fiver.core
   (:require [clojure.core.async :as async]
             [langohr.basic :as lb]
             [langohr.consumers :as lc]

@@ -1,7 +1,7 @@
-(ns watership.core-test
+(ns fiver.core-test
   (:require [clojure.test :refer :all]
-            [watership.core :as core]
-            [watership.test-queues :as tqs]
+            [fiver.core :as core]
+            [fiver.test-queues :as tqs]
             [clojure.core.async :as async]))
 
 (def rabbitmq-deliver-timeout-millis 300)

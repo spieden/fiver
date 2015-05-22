@@ -1,9 +1,9 @@
-(ns watership.test-queues
+(ns fiver.test-queues
   (:require [langohr.core :as rmq]
             [langohr.channel :as lch]
             [langohr.queue :as lq]
             [langohr.basic :as lb]
-            [watership.core :as core]
+            [fiver.core :as core]
             [clojure.edn :as edn]))
 
 (def lifetime-millis 200)
