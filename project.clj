@@ -1,5 +1,5 @@
-(defproject exaptic/fiver "0.1.0-SNAPSHOT"
-  :description "Consume RabbitMQ queues using core.async channels"
+(defproject exaptic/fiver "0.1.0"
+  :description "RabbitMQ queues via core.async channels"
   :url "https://github.com/spieden/fiver"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
