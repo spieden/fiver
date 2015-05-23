@@ -10,7 +10,9 @@
 [exaptic/fiver "0.1.0"]
 ```
 
-Fiver makes core.async channels for consuming RabbitMQ queues via [langohr](http://clojurerabbitmq.info/). Test coverage is thorough but production use is currently limited (let me know your experience).
+Fiver makes core.async channels for consuming RabbitMQ queues via [langohr](http://clojurerabbitmq.info/). It's opinionated about explicit message acknowledgement via ack/nack, which also lets you control how many messages are in flight at a time. Fiver also supports gracefully shutting down queue consumption.
+
+Test coverage is thorough but production use is currently limited (let me know your experience).
 
 ## Basics
 
