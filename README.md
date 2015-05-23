@@ -14,7 +14,9 @@ Fiver makes core.async channels for consuming RabbitMQ queues via [langohr](http
 
 ## Basics
 
-Here's a complete usage example for fiver followed by inline explanations:
+Here's a complete usage example for fiver followed by inline explanations.
+
+First the [langohr setup](http://clojurerabbitmq.info/articles/getting_started.html#langohr-overview), just for completeness:
 
 ```clj
 => (require '[fiver.core :as fvr])
@@ -30,7 +32,11 @@ Here's a complete usage example for fiver followed by inline explanations:
 => (def queue-name (lq/declare-server-named amqp-chan))
 
 => (lb/publish amqp-chan "" queue-name "hai")
+```
 
+Now to consume the message we just published via core.async:
+
+```clj
 => (def fiver-chans (fvr/chan-for-queue conn queue-name))
 => (keys fiver-chans)
 (:queue :control :termination)
@@ -50,7 +56,7 @@ Here's a complete usage example for fiver followed by inline explanations:
 :done
 ```
 
-Everything up to the `chan-for-queue` call is covered by the [langohr documentation](http://clojurerabbitmq.info/articles/getting_started.html#langohr-overview).
+Let's go through that in a little more detail.
 
 ```clj
 => (def fiver-chans (fvr/chan-for-queue conn queue-name))
