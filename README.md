@@ -10,16 +10,7 @@
 [exaptic/fiver "0.1.0"]
 ```
 
-Fiver makes core.async channels for consuming RabbitMQ queues via
-[langohr](http://clojurerabbitmq.info/). Test coverage is thorough but production use is currently
-limited (let me know your experience).
-
-Langohr provides two built-in ways to consume messages from queues:
-
-  * Callbacks via [langohr.consumers/subscribe](http://reference.clojurerabbitmq.info/langohr.consumers.html#var-subscribe)
-  * Blocking reads via [langohr.basic/get](http://reference.clojurerabbitmq.info/langohr.basic.html#var-get)
-
-Fiver creates a third option for more naturally consuming RabbitMQ messages in your [core.async](https://github.com/clojure/core.async) programs.
+Fiver makes core.async channels for consuming RabbitMQ queues via [langohr](http://clojurerabbitmq.info/). Test coverage is thorough but production use is currently limited (let me know your experience).
 
 ## Basics
 
