@@ -6,6 +6,10 @@
 
 [![Build Status](https://travis-ci.org/spieden/fiver.svg?branch=master)](https://travis-ci.org/spieden/fiver)
 
+```clojure
+[exaptic/fiver "0.1.0"]
+```
+
 Fiver makes core.async channels for consuming RabbitMQ queues via [langohr](http://clojurerabbitmq.info/). It's opinionated about explicit message acknowledgement, which also lets you control how many messages are in flight at a time. Graceful shutdown and error handling is baked in.
 
 Test coverage is thorough but production use is currently limited (let me know your experience).
