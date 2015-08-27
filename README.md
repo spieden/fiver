@@ -133,7 +133,7 @@ In order to run the tests you'll need a RabbitMQ server running locally such tha
 
 ## Other Solutions
 
-Also see [kehaar](https://github.com/democracyworks/kehaar), another Watership Down character named RabbitMQ/core.async solution. Some minds think alike. =)
+Also see [kehaar](https://github.com/democracyworks/kehaar), another Watership Down character named RabbitMQ/core.async solution. Great minds think alike. =)
 
 ## License
 
